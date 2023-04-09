@@ -1,0 +1,231 @@
+2023-04-09 01:40:01,245 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting LoggingApplication using Java 17.0.6 on DESKTOP-6I82T1U with PID 26192 (D:\develhope\Spring\logging\target\classes started by giuse in D:\develhope\Spring\logging)
+2023-04-09 01:40:01,348 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.6.5, Spring v5.3.17
+2023-04-09 01:40:01,352 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-04-09 01:40:01,715 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-09 01:40:01,717 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-09 01:40:07,956 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-04-09 01:40:08,043 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2023-04-09 01:40:08,049 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2023-04-09 01:40:08,120 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.60]
+2023-04-09 01:40:08,542 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-04-09 01:40:08,544 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 6823 ms
+2023-04-09 01:40:10,467 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-04-09 01:40:10,507 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2023-04-09 01:40:10,634 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-09 01:40:10,840 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started LoggingApplication in 12.573 seconds (JVM running for 17.361)
+2023-04-09 01:40:35,167 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-09 01:40:35,169 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-04-09 01:40:35,172 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 3 ms
+2023-04-09 01:40:35,292 INFO co.develhope.logging.controllers.BasicController [http-nio-8080-exec-1] welcome to controller
+2023-04-09 01:40:56,518 INFO co.develhope.logging.controllers.BasicController [http-nio-8080-exec-4] Starting exponential controller
+2023-04-09 01:40:56,520 INFO co.develhope.logging.services.BasicService [http-nio-8080-exec-4] starting exponential
+2023-04-09 01:40:56,521 INFO co.develhope.logging.services.BasicService [http-nio-8080-exec-4] finish exponential
+2023-04-09 01:41:44,304 ERROR co.develhope.logging.controllers.BasicController [http-nio-8080-exec-6] error controller
+2023-04-09 01:46:25,696 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting LoggingApplication using Java 17.0.6 on DESKTOP-6I82T1U with PID 40140 (D:\develhope\Spring\logging\target\classes started by giuse in D:\develhope\Spring\logging)
+2023-04-09 01:46:25,699 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.6.5, Spring v5.3.17
+2023-04-09 01:46:25,702 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-04-09 01:46:26,149 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-09 01:46:26,159 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-09 01:46:30,645 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-04-09 01:46:30,674 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2023-04-09 01:46:30,676 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2023-04-09 01:46:30,677 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.60]
+2023-04-09 01:46:30,976 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-04-09 01:46:30,977 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 4814 ms
+2023-04-09 01:46:32,410 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-04-09 01:46:32,450 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2023-04-09 01:46:32,595 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-09 01:46:32,708 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started LoggingApplication in 8.919 seconds (JVM running for 10.404)
+2023-04-09 01:50:19,914 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-09 01:50:19,925 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-04-09 01:50:20,042 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 114 ms
+2023-04-09 01:50:20,212 ERROR co.develhope.logging.controllers.BasicController [http-nio-8080-exec-1] error controller
+2023-04-09 01:50:45,712 INFO co.develhope.logging.controllers.BasicController [http-nio-8080-exec-3] Starting exponential controller
+2023-04-09 01:50:45,715 INFO co.develhope.logging.services.BasicService [http-nio-8080-exec-3] starting exponential
+2023-04-09 01:50:45,717 INFO co.develhope.logging.services.BasicService [http-nio-8080-exec-3] finish exponential
+2023-04-09 01:50:45,718 INFO co.develhope.logging.services.BasicService [http-nio-8080-exec-3] finish exponential
+2023-04-09 01:50:45,718 INFO co.develhope.logging.services.BasicService [http-nio-8080-exec-3] finish exponential
+2023-04-09 01:50:45,719 INFO co.develhope.logging.services.BasicService [http-nio-8080-exec-3] finish exponential
+2023-04-09 01:50:45,720 INFO co.develhope.logging.services.BasicService [http-nio-8080-exec-3] finish exponential
+2023-04-09 01:50:45,721 INFO co.develhope.logging.services.BasicService [http-nio-8080-exec-3] finish exponential
+2023-04-09 01:50:45,724 INFO co.develhope.logging.services.BasicService [http-nio-8080-exec-3] finish exponential
+2023-04-09 01:50:45,740 INFO co.develhope.logging.services.BasicService [http-nio-8080-exec-3] finish exponential
+2023-04-09 01:50:45,740 INFO co.develhope.logging.services.BasicService [http-nio-8080-exec-3] finish exponential
+2023-04-09 01:50:51,570 INFO co.develhope.logging.controllers.BasicController [http-nio-8080-exec-5] Starting exponential controller
+2023-04-09 01:50:51,571 INFO co.develhope.logging.services.BasicService [http-nio-8080-exec-5] starting exponential
+2023-04-09 01:50:51,571 INFO co.develhope.logging.services.BasicService [http-nio-8080-exec-5] finish exponential
+2023-04-09 01:50:52,141 INFO co.develhope.logging.services.BasicService [http-nio-8080-exec-5] finish exponential
+2023-04-09 01:50:52,141 INFO co.develhope.logging.services.BasicService [http-nio-8080-exec-5] finish exponential
+2023-04-09 01:50:53,403 INFO co.develhope.logging.services.BasicService [http-nio-8080-exec-5] finish exponential
+2023-04-09 01:50:53,404 INFO co.develhope.logging.services.BasicService [http-nio-8080-exec-5] finish exponential
+2023-04-09 01:50:53,819 INFO co.develhope.logging.services.BasicService [http-nio-8080-exec-5] finish exponential
+2023-04-09 01:50:53,820 INFO co.develhope.logging.services.BasicService [http-nio-8080-exec-5] finish exponential
+2023-04-09 01:50:53,820 INFO co.develhope.logging.services.BasicService [http-nio-8080-exec-5] finish exponential
+2023-04-09 01:50:53,821 INFO co.develhope.logging.services.BasicService [http-nio-8080-exec-5] finish exponential
+2023-04-09 01:51:04,558 INFO co.develhope.logging.controllers.BasicController [http-nio-8080-exec-7] welcome to controller
+2023-04-09 01:53:35,994 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting LoggingApplication using Java 17.0.6 on DESKTOP-6I82T1U with PID 32676 (D:\develhope\Spring\logging\target\classes started by giuse in D:\develhope\Spring\logging)
+2023-04-09 01:53:36,004 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.6.5, Spring v5.3.17
+2023-04-09 01:53:36,006 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-04-09 01:53:36,152 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-09 01:53:36,153 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-09 01:53:40,643 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-04-09 01:53:40,670 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2023-04-09 01:53:40,671 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2023-04-09 01:53:40,672 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.60]
+2023-04-09 01:53:41,098 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-04-09 01:53:41,104 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 4950 ms
+2023-04-09 01:53:42,737 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-04-09 01:53:42,784 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2023-04-09 01:53:42,950 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-09 01:53:42,978 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started LoggingApplication in 8.936 seconds (JVM running for 10.702)
+2023-04-09 01:54:16,330 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-09 01:54:16,332 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-04-09 01:54:16,335 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 2 ms
+2023-04-09 01:54:16,427 INFO co.develhope.logging.controllers.BasicController [http-nio-8080-exec-1] welcome to controller
+2023-04-09 01:54:22,198 INFO co.develhope.logging.controllers.BasicController [http-nio-8080-exec-3] Starting exponential controller
+2023-04-09 01:54:22,200 INFO co.develhope.logging.services.BasicService [http-nio-8080-exec-3] starting exponential
+2023-04-09 01:54:22,201 INFO co.develhope.logging.services.BasicService [http-nio-8080-exec-3] finish exponential
+2023-04-09 01:54:22,202 INFO co.develhope.logging.services.BasicService [http-nio-8080-exec-3] finish exponential
+2023-04-09 01:54:22,202 INFO co.develhope.logging.services.BasicService [http-nio-8080-exec-3] finish exponential
+2023-04-09 01:54:22,202 INFO co.develhope.logging.services.BasicService [http-nio-8080-exec-3] finish exponential
+2023-04-09 01:54:22,203 INFO co.develhope.logging.services.BasicService [http-nio-8080-exec-3] finish exponential
+2023-04-09 01:54:22,203 INFO co.develhope.logging.services.BasicService [http-nio-8080-exec-3] finish exponential
+2023-04-09 01:54:22,204 INFO co.develhope.logging.services.BasicService [http-nio-8080-exec-3] finish exponential
+2023-04-09 01:54:22,204 INFO co.develhope.logging.services.BasicService [http-nio-8080-exec-3] finish exponential
+2023-04-09 01:54:22,204 INFO co.develhope.logging.services.BasicService [http-nio-8080-exec-3] finish exponential
+2023-04-09 01:56:36,716 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting LoggingApplication using Java 17.0.6 on DESKTOP-6I82T1U with PID 36980 (D:\develhope\Spring\logging\target\classes started by giuse in D:\develhope\Spring\logging)
+2023-04-09 01:56:36,727 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.6.5, Spring v5.3.17
+2023-04-09 01:56:36,731 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-04-09 01:56:36,967 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-09 01:56:36,968 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-09 01:56:41,989 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-04-09 01:56:42,021 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2023-04-09 01:56:42,023 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2023-04-09 01:56:42,024 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.60]
+2023-04-09 01:56:42,195 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-04-09 01:56:42,197 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 5227 ms
+2023-04-09 01:56:43,517 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-04-09 01:56:43,552 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2023-04-09 01:56:43,624 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-09 01:56:43,653 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started LoggingApplication in 10.316 seconds (JVM running for 12.893)
+2023-04-09 01:56:48,485 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-09 01:56:48,486 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-04-09 01:56:48,489 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2023-04-09 01:56:48,664 INFO co.develhope.logging.controllers.BasicController [http-nio-8080-exec-1] Starting exponential controller
+2023-04-09 01:56:48,664 INFO co.develhope.logging.services.BasicService [http-nio-8080-exec-1] starting exponential
+2023-04-09 01:56:48,665 INFO co.develhope.logging.services.BasicService [http-nio-8080-exec-1] finish exponential
+2023-04-09 01:56:48,665 INFO co.develhope.logging.services.BasicService [http-nio-8080-exec-1] finish exponential
+2023-04-09 01:56:48,666 INFO co.develhope.logging.services.BasicService [http-nio-8080-exec-1] finish exponential
+2023-04-09 01:56:48,666 INFO co.develhope.logging.services.BasicService [http-nio-8080-exec-1] finish exponential
+2023-04-09 01:56:48,667 INFO co.develhope.logging.services.BasicService [http-nio-8080-exec-1] finish exponential
+2023-04-09 01:56:48,667 INFO co.develhope.logging.services.BasicService [http-nio-8080-exec-1] finish exponential
+2023-04-09 01:56:48,667 INFO co.develhope.logging.services.BasicService [http-nio-8080-exec-1] finish exponential
+2023-04-09 01:56:48,668 INFO co.develhope.logging.services.BasicService [http-nio-8080-exec-1] finish exponential
+2023-04-09 01:56:48,668 INFO co.develhope.logging.services.BasicService [http-nio-8080-exec-1] finish exponential
+2023-04-09 01:57:01,488 INFO co.develhope.logging.controllers.BasicController [http-nio-8080-exec-3] Starting exponential controller
+2023-04-09 01:57:01,489 INFO co.develhope.logging.services.BasicService [http-nio-8080-exec-3] starting exponential
+2023-04-09 01:57:01,490 INFO co.develhope.logging.services.BasicService [http-nio-8080-exec-3] finish exponential
+2023-04-09 01:57:01,490 INFO co.develhope.logging.services.BasicService [http-nio-8080-exec-3] finish exponential
+2023-04-09 01:57:01,491 INFO co.develhope.logging.services.BasicService [http-nio-8080-exec-3] finish exponential
+2023-04-09 01:57:01,491 INFO co.develhope.logging.services.BasicService [http-nio-8080-exec-3] finish exponential
+2023-04-09 01:57:01,492 INFO co.develhope.logging.services.BasicService [http-nio-8080-exec-3] finish exponential
+2023-04-09 01:57:01,492 INFO co.develhope.logging.services.BasicService [http-nio-8080-exec-3] finish exponential
+2023-04-09 01:57:01,492 INFO co.develhope.logging.services.BasicService [http-nio-8080-exec-3] finish exponential
+2023-04-09 01:57:01,493 INFO co.develhope.logging.services.BasicService [http-nio-8080-exec-3] finish exponential
+2023-04-09 01:57:01,493 INFO co.develhope.logging.services.BasicService [http-nio-8080-exec-3] finish exponential
+2023-04-09 02:03:57,381 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting LoggingApplication using Java 17.0.6 on DESKTOP-6I82T1U with PID 7704 (D:\develhope\Spring\logging\target\classes started by giuse in D:\develhope\Spring\logging)
+2023-04-09 02:03:57,400 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.6.5, Spring v5.3.17
+2023-04-09 02:03:57,401 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-04-09 02:03:57,662 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-09 02:03:57,664 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-09 02:04:05,612 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-04-09 02:04:05,662 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2023-04-09 02:04:05,664 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2023-04-09 02:04:05,664 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.60]
+2023-04-09 02:04:05,944 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-04-09 02:04:05,945 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 8279 ms
+2023-04-09 02:04:07,610 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-04-09 02:04:07,646 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2023-04-09 02:04:07,737 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-09 02:04:07,798 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started LoggingApplication in 11.825 seconds (JVM running for 13.314)
+2023-04-09 02:04:32,798 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-09 02:04:32,799 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-04-09 02:04:32,801 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2023-04-09 02:04:33,027 INFO co.develhope.logging.controllers.BasicController [http-nio-8080-exec-1] Starting exponential controller
+2023-04-09 02:04:33,028 INFO co.develhope.logging.services.BasicService [http-nio-8080-exec-1] starting exponential
+2023-04-09 02:04:33,029 INFO co.develhope.logging.services.BasicService [http-nio-8080-exec-1] finish exponential
+2023-04-09 02:04:55,589 ERROR co.develhope.logging.controllers.BasicController [http-nio-8080-exec-3] error controller
+2023-04-09 02:09:13,947 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting LoggingApplication using Java 17.0.6 on DESKTOP-6I82T1U with PID 8616 (D:\develhope\Spring\logging\target\classes started by giuse in D:\develhope\Spring\logging)
+2023-04-09 02:09:13,969 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.6.5, Spring v5.3.17
+2023-04-09 02:09:13,978 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-04-09 02:09:14,247 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-09 02:09:14,248 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-09 02:09:18,428 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-04-09 02:09:18,469 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2023-04-09 02:09:18,470 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2023-04-09 02:09:18,471 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.60]
+2023-04-09 02:09:18,796 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-04-09 02:09:18,807 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 4558 ms
+2023-04-09 02:09:20,336 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-04-09 02:09:20,423 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2023-04-09 02:09:20,621 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-09 02:09:20,655 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started LoggingApplication in 8.143 seconds (JVM running for 9.895)
+2023-04-09 02:10:15,013 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-09 02:10:15,015 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2023-04-09 02:10:15,020 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 5 ms
+2023-04-09 02:10:15,116 ERROR co.develhope.logging.controllers.BasicController [http-nio-8080-exec-2] error controller
+java.lang.Error: This is the error
+	at co.develhope.logging.controllers.BasicController.errors(BasicController.java:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-04-09 02:10:25,121 INFO co.develhope.logging.controllers.BasicController [http-nio-8080-exec-5] Starting exponential controller
+2023-04-09 02:10:25,122 INFO co.develhope.logging.services.BasicService [http-nio-8080-exec-5] starting exponential
+2023-04-09 02:10:25,123 INFO co.develhope.logging.services.BasicService [http-nio-8080-exec-5] finish exponential
